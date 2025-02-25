@@ -1,0 +1,49 @@
+# Site settings
+title: GnG Landing Page
+email: PhantasmicJ@GamersNGhosts.com
+description: "A simple page with a large image and social links."
+baseurl: "" # if your site is in a subfolder, change this
+url: "https://phantasmicj.github.io"
+github_username: PhantasmicJ
+
+# Build settings
+markdown: kramdown
+theme: minima # Or a theme that suits your needs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default" # Create a custom default layout if needed
+
+# Custom data (for social links)
+social:
+  - name: Facebook
+    url: "https://www.facebook.com/profile.php?id=61567546343660&"
+    image: "/assets/images/facebook-icon.png" # Path to your Twitter icon
+  - name: Instagram
+    url: "https://www.instagram.com/gamersnghosts"
+    image: "/assets/images/instagram-icon.png" # Path to your Instagram icon
+  - name: YouTube
+    url: "https://www.youtube.com/@GamersNGhosts"
+    image: "/assets/images/youtube-icon.png" # Path to your GitHub icon
+  - name: Twitch
+    url: "https://www.twitch.tv/gamersnghosts"
+    image: "/assets/images/twitch-icon.png" # Path to your LinkedIn icon
+
+# Custom variables for use in templates
+image_path: "/assets/images/large-image.png" # Path to your large image
