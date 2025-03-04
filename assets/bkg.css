@@ -1,0 +1,6 @@
+body {
+    background-image: url('/assets/images/creepy-house-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-attachment: fixed; /* Optional: for a fixed background */
+  }
