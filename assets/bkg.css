@@ -4,3 +4,29 @@ body {
     background-repeat: no-repeat; /* Adjust as needed */
     background-attachment: fixed; /* Optional: for a fixed background */
   }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  body {
+      /* Adjust styles for mobile */
+      font-size: 16px; /* Example font size */
+  }
+
+  img[alt="Large Image"] {
+      margin-top: 20px; /* Adjust margin for mobile */
+  }
+
+  .social-links a img {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  margin: 10px;
+}
